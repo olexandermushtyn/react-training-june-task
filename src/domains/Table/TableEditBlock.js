@@ -1,7 +1,7 @@
 import { ButtonGroup, Button, Form } from 'react-bootstrap'
 import { useTableContext } from '../../Context'
 import { useState, useRef, useEffect } from 'react'
-import FilterRulesList from '../Filter/FilterRulesList'
+import { FilterRulesList } from '../Filter'
 import { useEditHandlers } from './hooks'
 import TableUserInfo from './TableUserInfo'
 import AddUser from '../User/AddUser'

@@ -1,7 +1,6 @@
 import './App.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import TableView from './domains/Table/TableView'
-import TableEditBlock from './domains/Table/TableEditBlock'
+import { TableEditBlock, TableView } from './domains/Table'
 import { useState, useEffect } from 'react'
 import { useTableContext } from './Context/hooks'
 
